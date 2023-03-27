@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header , footer {
+    background-color: orange;
+   text-align: center;
+    color: white;
+    line-height: 100px;
+}
+
+ul{
+    display: flex;
+    align-items: center; 
+    height: 25px;
+    padding: 25px;
+    gap: 15px;
+    background-color: rgba(128, 128, 128, 0.342); 
+    margin: auto;
+}
+nav{
+    width: 100%;
+}
+li {
+    border: 1px solid black;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    list-style: none;
+}
+
+ nav a{
+    text-decoration: none; 
+    color: orange;
+}
+
+.sec1{
+    display:flex;
+    justify-content:space-around ;
+    background-color: rgba(128, 128, 128, 0.925);
+    padding: 30px;
+    gap: 10px; 
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+.cadre{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid white;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+p{
+    font-size:15px;
+    font-style: normal;
+    text-align: center;
+    width: 300px;
+    padding-top: 15px;
+     
+}
+
+.button{
+    width: auto;
+    height:100px ;
+    text-align: center;
+    line-height: 170px;
+  
+}
+
+button{
+   width: 300px;
+   height: 30px;
+   
+}
+
+@media screen and (max-width:415px) {
+    
+ul{
+    display: flex;
+    align-items: center; 
+    height: 25px;
+    padding: 25px;
+    gap: 10px;
+    background-color: rgba(128, 128, 128, 0.342); 
+    margin: auto;
+}
+nav{
+    width: 100%;
+    margin-top: 1490px;
+    position: absolute;
+    display: flex;
+}
+li {
+    border: 1px solid black;
+    width: 60px;
+    background-color: white;
+    text-align: center;
+    padding: 0px;
+    padding-top: 10px;
+    list-style: none;
+    height: 45px;
+}
+
+ nav a{
+    text-decoration: none; 
+    color: orange;
+}
+
+.sec1{
+    display:flex;
+    justify-content:space-around ;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.925);
+    padding: 30px;
+    padding-bottom:100px ;
+    gap: 10px; 
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+
+
+}
+   
+
+    
